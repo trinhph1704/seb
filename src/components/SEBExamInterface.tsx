@@ -201,6 +201,17 @@ const SEBExamInterface = () => {
     return (totalSeconds / maxSeconds) * 100;
   };
 
+  const getTimeColor = (minutes: number, seconds: number) => {
+    const totalMinutes = minutes + seconds / 60;
+    if (totalMinutes > 10) {
+      return '#4caf50'; // Xanh lá
+    } else if (totalMinutes >= 5) {
+      return '#ffc107'; // Vàng
+    } else {
+      return '#f44336'; // Đỏ
+    }
+  };
+
   // Generate question grid (1-20)
   const questionNumbers = Array.from({ length: 20 }, (_, i) => i + 1);
 
@@ -329,8 +340,8 @@ const SEBExamInterface = () => {
               <Box sx={{ 
                 width: `${getTimeProgress(timeLeft.minutes, timeLeft.seconds)}%`, 
                 height: '100%', 
-                backgroundColor: '#ffc107',
-                transition: 'width 0.3s ease'
+                backgroundColor: getTimeColor(timeLeft.minutes, timeLeft.seconds),
+                transition: 'width 0.3s ease, background-color 0.3s ease'
               }} />
             </Box>
             
