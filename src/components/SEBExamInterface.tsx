@@ -272,7 +272,7 @@ const SEBExamInterface = () => {
           <Box sx={{ display: 'flex', alignItems: 'center', flex: 1 }}>
             <Box sx={{ width: 152, height:82, mr: 2, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <img 
-                src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-01bc-61f5-aa05-8252d95c602e/raw?se=2025-07-25T19%3A35%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=bdbd9216-7e87-53b8-a7c2-7cf9cbdc40ed&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-24T22%3A16%3A56Z&ske=2025-07-25T22%3A16%3A56Z&sks=b&skv=2024-08-04&sig=O6jjoatBIDsRY5zIYYev/em%2BUL83H6z6VKVlwsm4A9s%3D" 
+                src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-01bc-61f5-aa05-8252d95c602e/raw?se=2025-07-26T01%3A36%3A43Z&sp=r&sv=2024-08-04&sr=b&scid=4380f7ef-e7ce-5413-b026-1f8251e52629&skoid=864daabb-d06a-46b3-a747-d35075313a83&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T11%3A15%3A24Z&ske=2025-07-26T11%3A15%3A24Z&sks=b&skv=2024-08-04&sig=8k8uGnJiu%2Ba4uKaM4E9ZNDr95mzMaaKHQV3WkPi1PBM%3D" 
                 alt="FPT Logo" 
                 style={{ 
                   width: '130px', 
